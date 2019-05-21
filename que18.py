@@ -2,7 +2,7 @@ a,b=input().split()
 x=int(a)
 y=int(b)
 
-for i in range (x,y+1):
+for i in range (x,y):
         sum = 0
         temp = i
         while (temp>0):
