@@ -1,4 +1,3 @@
 size=int(input())
-arr=list(map(int,input().split()))
-arr.sort()
-print(*arr,end=" ")
+arr=[int(i) for i in input().split()]
+print(*sorted(arr))
