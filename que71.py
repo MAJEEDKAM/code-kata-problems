@@ -1,6 +1,6 @@
-a=input()
-b=(a[::-1])
-if (a == b):
+m=input()
+n=(m[::-1])
+if (m == n):
     print("yes")
 else:
     print("no")
